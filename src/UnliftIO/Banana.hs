@@ -9,7 +9,7 @@ module UnliftIO.Banana where
 
 import qualified Control.Event.Handler as H
 import Control.Monad
-import UnliftIO
+import UnliftIO hiding (toIO)
 
 type EventHandler m a = a -> m ()
 newtype AddHandler m a
