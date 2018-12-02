@@ -1,7 +1,5 @@
 {-#
     LANGUAGE DeriveTraversable
-           , PartialTypeSignatures
-           , RankNTypes
 #-}
 
 
